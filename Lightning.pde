@@ -15,7 +15,7 @@ void draw() {
   // stroke((int)(Math.random()), (int)(Math.random()), (int)(Math.random()));
   
   noStroke();
-  fill(0, 0, 0, 15);
+  fill(0, 0, 0, 10);
   rect(0, 0, 600, 600);
   
   graphBackground();
