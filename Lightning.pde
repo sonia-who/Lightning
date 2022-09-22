@@ -8,7 +8,7 @@ void setup() {
   strokeWeight(5);
   background(0);
   // background(255, 255, 255);
-  frameRate(60);
+  frameRate(50);
 }
 
 void draw() {
@@ -22,6 +22,7 @@ void draw() {
   
   
   strokeWeight(2);
+  // stroke((int)(Math.random() * 255), (int)(Math.random() * 255), (int)(Math.random() * 255));
   stroke(255, 0, 0);
   if (endX <= 500) {
     endX = (int)(Math.random() * 20) + startX;
@@ -62,9 +63,4 @@ void graphBackground() {
     line (x, 0, x, 500);
   } 
 }
-
-void heart() {
-  
-}
-
 
