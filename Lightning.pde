@@ -50,7 +50,7 @@ void mousePressed() {
 
 void graphBackground() {
   strokeWeight(.5);
-  stroke(180, 180, 180, 15);
+  stroke(180, 180, 180, 25);
   for(int y = 20; y < 500; y += 20) {
     
     //stroke(0, 255, 30);
